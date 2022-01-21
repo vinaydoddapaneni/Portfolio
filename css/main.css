@@ -93,7 +93,7 @@ li a:hover{
 /* About */
 /* Col 1 */
 .about{
-    height: 1000px;
+    height: 950px;
     background-color: #050505;
     padding: 100px 120px 50px 105px;
 }
@@ -265,7 +265,9 @@ li a:hover{
 .project{
     background-color: rgb(5, 5, 5);
     /* height: 700px; */
-    height: 600px;
+    height: 700px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 .project h1{
     color: white;
@@ -294,7 +296,6 @@ li a:hover{
 }
 
 
-/* Container holding the image and the text */
 .container {
     position: relative;
     text-align: center;
@@ -304,11 +305,11 @@ li a:hover{
 .container:hover{
     color: tomato;
     text-shadow: 1px 1px 1px white;
+    font-size: 20px;
 }
-  /* Bottom left text */
 .project-card .bottom-left {
     position: absolute;
-    bottom: 8px;
+    bottom: -60px;
     left: 16px;
 }
 .container1{
@@ -320,5 +321,57 @@ li a:hover{
 .container1:hover{
     color: violet;
     text-shadow: 1px 1px 1px violet;
+    font-size: 20px;
 }
 /* End Project */
+
+/* testmonials */
+.testmonials{
+    height: 800px;
+    text-align: center;
+    background-color: #000;
+    color: white;
+    padding-top: 50px;
+}
+.testmonials > h1{
+    padding-bottom: 50px;
+}
+.test-col1{
+    display: inline-block;
+    width: 40%;
+}
+.test-col2{
+    display: inline-block;
+    width: 40%;
+    text-align: justify;
+    height: 505px;
+    border-top:10px rosybrown solid  ;
+    border-right:10px aqua solid ;
+    border-bottom:10px papayawhip solid ;
+    border-left: 10px tomato solid;
+    overflow: hidden;
+}
+.test-col2 p{
+    line-height: 40px;
+    font-size: 20px;
+    padding: 20px;
+}
+.test-col2 .test-p{
+    text-align: center;
+}
+.test-col2 img{
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+}
+.test-col2 .rt{
+    position: relative;
+    top:10px;
+    right: 0px;
+}
+.test-col2 .lb{
+    position: relative;
+    bottom: 20px;
+    left: 430px;
+}
+/* End testmonials */
