@@ -211,10 +211,11 @@ li a:hover{
     
 }
 /* End Count */
+/* Services */
 .services{
     background-image: url("../images/background-poly.jpg");
     text-align: center;
-    height: 500px;
+    height: 1000px;
     padding-top: 100px;
 }
 .services h1{
@@ -230,16 +231,22 @@ li a:hover{
     margin: 0 auto;
     width: 30%;
     display: inline-block;
-    height: 300px;
+    height: 360px;
     padding: 50px 40px 25px 20px;
     border-radius: 20px;
+    margin-top: 20px;
 }
-
+.divi h2{
+    padding-top: 30px;
+}
+.divi .li1{
+    padding-top: 30px;
+}
 .logo-img img{
-    height: 120px;
-    width: 110px;
+    height: 100px;
+    width: 90px;
     background-color: goldenrod;
-    border-radius: 30px;
+    border-radius: 10px;
     overflow: hidden;
 }
 .divii{
@@ -249,3 +256,31 @@ li a:hover{
     background-color: rgb(0, 0, 0);
     box-shadow: 5px 10px 28px 10px rgb(121, 64, 64);
 }
+/* End Services */
+/* Project */
+.project{
+    background-color: rgb(5, 5, 5);
+    /* height: 700px; */
+    height: 600px;
+}
+.project h1{
+    color: white;
+    text-align: center;
+}
+.project .project-card{
+    /* background-color: #fff; */
+    height: 60%;
+    width: 22%;
+    display: inline-block;
+    margin-left: 25px;
+}
+.project-card img{
+    height:400px;
+    width:100%;
+    margin-top: 20px;
+}
+.project-card img:hover{
+    border-radius: 30px;
+    box-shadow: 5px 10px 28px 10px rgb(85, 40, 207);
+}
+/* End Project */
