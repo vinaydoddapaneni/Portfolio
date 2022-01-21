@@ -1,4 +1,7 @@
 /* Header */
+html {
+    scroll-behavior: smooth;
+  }
 *{
     padding: 0%;
     margin: 0%;
@@ -96,6 +99,7 @@ li a:hover{
     height: 950px;
     background-color: #050505;
     padding: 100px 120px 50px 105px;
+    transition: 1s;
 }
 
 .profile-img{
