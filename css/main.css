@@ -223,6 +223,7 @@ li a:hover{
 }
 .services h1{
     color: white;
+    font-size: 40px;
 }
 .service-card{
     margin-top: 30px;
@@ -272,6 +273,7 @@ li a:hover{
 .project h1{
     color: white;
     text-align: center;
+    font-size: 40px;
 }
 .project .project-card{
     /* background-color: #fff; */
@@ -337,6 +339,7 @@ li a:hover{
 }
 .testmonials > h1{
     padding-bottom: 50px;
+    font-size: 40px;
 }
 .test-col1{
     display: inline-block;
@@ -381,35 +384,45 @@ li a:hover{
 .clients{
     background-color: rgb(5, 5, 5);
     color: white;
-}
-.clients .cards{
-    background-color: rgb(7 177 155);
-    width: 90%;
     text-align: center;
+    padding-bottom: 40px;
+}
+.clients h1{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+.faS{
+    width: 80%;
+    
     margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
-.cards{
-    padding: 0px 30px 0 30px;
-    /* display: inline-block; */
-}
-.cards i{
-    margin-left: 50px;
+.clients i{
+    /* margin-left: 50px; */
+    padding: 20px;
     border-radius: 20px;
     transition: 1s;
     width: 15%;
     height: 20%;
+    color: tan;
+    background-color: #00000082;
+    
 }
-.cards i p{
+
+.clients i p{
     font-size: 20px;
 }
-.cards i:hover{
+.clients i:hover{
     position:relative;
-    top:-20px;
+    top:-10px;
     left: 1px;
-    height: 100px;
+    height: 140px;
     right: 10px;
-    width: 100px;
+    width: 150px;
     background-color: tomato;
-    color:wheat;
+    color:white;
+    box-shadow: 2px 5px 14px 5px rgb(220, 216, 231);
 }
 /* End Clients */
