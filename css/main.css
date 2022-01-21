@@ -416,13 +416,159 @@ li a:hover{
 }
 .clients i:hover{
     position:relative;
-    top:-10px;
-    left: 1px;
     height: 140px;
-    right: 10px;
     width: 150px;
     background-color: tomato;
     color:white;
     box-shadow: 2px 5px 14px 5px rgb(220, 216, 231);
+    transform: translate3d(1px, -62px, -135px);
 }
 /* End Clients */
+
+/* Get In Touch */
+.touch{
+    height: 800px;
+    text-align: center;
+    background-color: #000;
+    color: white;
+    padding-top: 50px;
+}
+.touch > h1{
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+.touch-col p{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.touch-col{
+    display: inline-block;
+    width: 40%;
+    text-align: justify;
+    height: 505px;
+    border-top:10px rosybrown solid  ;
+    border-right:10px aqua solid ;
+    border-bottom:10px papayawhip solid ;
+    border-left: 10px tomato solid;
+    overflow: hidden;
+    text-align: center;
+}
+.touch-col1{
+    display: inline-block;
+    width: 40%;
+    text-align: justify;
+    height: 505px;
+    /* border-top:3px rosybrown solid  ;
+    border-right:3px aqua solid ;
+    border-bottom:3px papayawhip solid ;
+    border-left: 3px tomato solid; */
+    overflow: hidden;
+    text-align: center;
+}
+.touch-col .input{
+    width: 90%;
+    padding: 12px 0px;
+    border: 0;
+    outline: 0;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #03a8f45e;
+    background-color: #000000;
+    color: white;
+    overflow: hidden; 
+    padding-right: .5em;
+    transition: 1s;
+    
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+.button{
+    background-color: #000;
+    color: white;
+    width: 200px;
+    height: 50px;
+    outline: 0;
+    border-radius: 10px;
+    transition:1s;
+}
+.button:hover{
+    background-color: gray;
+    color: black;
+    width: 200px;
+    height: 50px;
+    outline: 0;
+    border-radius: 10px;
+}
+.touch-col .input:hover{
+    border-bottom: 2px solid #5bf4035e;
+}
+
+/* End Get In Touch */
+
+
+/* Footer */
+.footer{
+    background-color: black;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.cont-card{
+    display: inline-block;
+    text-align: center;
+    height: 300px;
+    margin-left: 10px;
+    width: 30%;
+    color: white;
+    background-color: rgb(17, 17, 17);
+    border: 2px solid rgb(68, 68, 68);
+    margin-bottom: 80px;
+}
+.cont-card a{
+    text-decoration: none;
+    color:turquoise;
+}
+.cont-card .circle{
+    position: relative;
+    top: -35px;
+    height: 150px;
+    width: 40%;
+    padding-top: 22px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    margin: 0 auto;
+    color: black;
+
+}
+.cont-card h1{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.circle i{
+    font-size: 90px;
+    color: white;
+}
+/* End Footer */
+/* Icon */
+.footer-end{
+    background-color: #111111;
+    height: 50px;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.footer-end i{
+    margin-left: 12px;
+}
+/* End Icon */
