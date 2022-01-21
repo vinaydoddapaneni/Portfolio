@@ -282,7 +282,7 @@ li a:hover{
 }
 .project-card img,.container{
     height:400px;
-    width:100%;
+    width:99%;
     margin-top: 20px;
     border-radius: 30px;
     transition: 1s;
@@ -293,6 +293,8 @@ li a:hover{
     color: red;
     border-radius: 30px;
     box-shadow: 5px 10px 28px 10px rgb(85, 40, 207);
+    height: 406px;
+    width: 100%;
 }
 
 
@@ -375,3 +377,39 @@ li a:hover{
     left: 430px;
 }
 /* End testmonials */
+/* Clients */
+.clients{
+    background-color: rgb(5, 5, 5);
+    color: white;
+}
+.clients .cards{
+    background-color: rgb(7 177 155);
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+.cards{
+    padding: 0px 30px 0 30px;
+    /* display: inline-block; */
+}
+.cards i{
+    margin-left: 50px;
+    border-radius: 20px;
+    transition: 1s;
+    width: 15%;
+    height: 20%;
+}
+.cards i p{
+    font-size: 20px;
+}
+.cards i:hover{
+    position:relative;
+    top:-20px;
+    left: 1px;
+    height: 100px;
+    right: 10px;
+    width: 100px;
+    background-color: tomato;
+    color:wheat;
+}
+/* End Clients */
